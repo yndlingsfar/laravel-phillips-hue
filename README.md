@@ -1,6 +1,14 @@
 # laravel-phillips-hue
 provides basic API functionality for Phillips Hue
 
+__Installation__
+
+````
+composer require dsteiner23/laravel-phillips-hue
+````
+
+
+__Usage__
 
 ````
 /**
