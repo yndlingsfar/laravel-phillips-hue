@@ -1,6 +1,6 @@
 <?php return [
     'mappings' => [
-        'App\Light\Bulb' => [
+        'DSteiner23\Light\Bulb' => [
             'attributes' => [
                 'name' => [
                     'type' => 'string'
@@ -11,7 +11,7 @@
                 ]
             ],
         ],
-        'App\Light\State' => [
+        'DSteiner23\Light\State' => [
             'attributes' => [
                 'on' => [
                     'type' => 'boolean',

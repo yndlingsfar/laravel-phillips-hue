@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Light;
+namespace DSteiner23\Light;
 
 /**
  * Provides basic functionality for interaction with Phillips Hue API
  * 
  * Interface CommunicationInterface
- * @package App\Light
+ * @package DSteiner23\Light
  */
 interface CommunicationInterface
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Light;
+namespace DSteiner23\Light;
 
 use GuzzleHttp\Client;
 use JMS\Serializer\Serializer;
 
 /**
  * Class HueCommunication
- * @package App\Light
+ * @package DSteiner23\Light
  */
 class HueCommunication implements CommunicationInterface
 {

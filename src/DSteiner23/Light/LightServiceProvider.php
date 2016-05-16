@@ -1,5 +1,5 @@
 <?php
-namespace App\Providers;
+namespace DSteiner23\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -7,8 +7,8 @@ class LightServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->bind('App\Light\CommunicationInterface', 'App\Light\HueCommunication');
-        $this->app->bind('App\Light\LightSwitchInterface', 'App\Light\LightSwitch');
+        $this->app->bind('DSteiner23\Light\CommunicationInterface', 'DSteiner23\Light\HueCommunication');
+        $this->app->bind('DSteiner23\Light\LightSwitchInterface', 'DSteiner23\Light\LightSwitch');
     }
 
 }

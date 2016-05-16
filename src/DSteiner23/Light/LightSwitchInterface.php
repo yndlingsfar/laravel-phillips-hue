@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Light;
+namespace DSteiner23\Light;
 
 /**
  * Provides basic light switch functionality

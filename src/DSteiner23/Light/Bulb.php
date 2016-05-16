@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Light;
+namespace DSteiner23\Light;
 
 /**
  * Class Bulp
- * @package App\Light
+ * @package DSteiner23\Light
  */
 class Bulb
 {
