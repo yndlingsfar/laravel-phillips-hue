@@ -36,7 +36,6 @@ class HueCommunication implements CommunicationInterface
     public function putOneBulbState($id, Bulb $bulb)
     {
         $body = $this->serializer->serialize($bulb->getState(), 'json');
-        var_dump($body);
 
         return $this->client->request('PUT',
             sprintf(
