@@ -17,7 +17,8 @@
   "require": {
     "php": ">=5.5.9",
     "kozz/laravel-guzzle-provider": "~6.0",
-    "atrauzzi/laravel-serializer": "dev-master"
+    "atrauzzi/laravel-serializer": "dev-master",
+    "laravel/framework": ">=4.0"
   },
   "autoload": {
     "psr-4": {
