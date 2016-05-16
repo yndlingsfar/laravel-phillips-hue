@@ -12,17 +12,17 @@ class Bridge
     /**
      * @var string
      */
-    private $id = "001788fffe2894cf";
+    private $id = "xxxx";
 
     /**
      * @var string
      */
-    private $ip = "192.168.0.100";
+    private $ip = "xxxx";
 
     /**
      * @var string
      */
-    private $user = "rYKVugZyal4cIdMHAfVY9Vd-BPOXKlklr5u4HslQ";
+    private $user = "xxx";
 
     /**
      * @return string
