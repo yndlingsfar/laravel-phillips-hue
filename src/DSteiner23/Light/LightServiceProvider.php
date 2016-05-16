@@ -9,6 +9,11 @@ class LightServiceProvider extends ServiceProvider
     {
         $this->app->bind('DSteiner23\Light\CommunicationInterface', 'DSteiner23\Light\HueCommunication');
         $this->app->bind('DSteiner23\Light\LightSwitchInterface', 'DSteiner23\Light\LightSwitch');
+
+        //@todo: check if file exists first
+        $this->mergeConfigFrom(
+            __DIR__.'/config/serializer.php', 'serializer'
+        );
     }
 
 }
