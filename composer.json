@@ -16,13 +16,13 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=5.5.9",
-    "kozz/laravel-guzzle-provider": "~6.0",
-    "atrauzzi/laravel-serializer": "dev-master",
-    "laravel/framework": ">=4.0"
+    "laravel/framework": "~5.0",
+    "dsteiner23/phillips-hue-connection" : "dev-master"
+
   },
   "autoload": {
     "psr-4": {
-      "DSteiner23\\Light\\": "src/Dsteiner23/Light"
+      "DSteiner23\\LightSwitch\\": "src/"
     }
   }
 }
